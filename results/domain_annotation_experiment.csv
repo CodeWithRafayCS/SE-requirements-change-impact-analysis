@@ -1,0 +1,3 @@
+cr_id,requirement_id,condition,cosine_sim,rank,total_requirements,stage1_passed,top7_retrieved
+MRM-1050,MRM-1068,Unannotated,0.1414,37,74,False,False
+MRM-1050,MRM-1068,Domain Annotated (Redback),0.4375,2,74,True,True

@@ -1,0 +1,7 @@
+hypothesis,comparison,mean_diff_pp,ci_lo_pp,ci_hi_pp,p_raw,p_adjusted,supported,note
+H1a,Validation Stage-1 Recall >= 90.0%,2.86,,,,,True,Point estimate 92.86% at tau = 0.225
+H1,C3 vs B2 at B2 mean cost,-42.86,-85.71,-14.29,1.0,1.0,False,Evaluated at 1.33% inspection budget
+H2,C4 Recall >= 68.6% & Cost <= 5.0%,-1.9,33.33,95.24,,,False,C4 recall 66.67% at 4.38% cost (floor: 68.57%)
+H3a,C3 vs C1 at B2 mean cost,0.0,0.0,0.0,1.0,1.0,False,Evaluated at 1.33% inspection budget
+H3b,C4 vs C3 at B2 mean cost,42.86,14.29,85.71,0.125,0.375,False,Evaluated at 1.33% inspection budget
+H4,AUROC(NLI) > AUROC(cosine),-48.99,-67.32,-21.69,0.0005,0.0005,False,AUROC(NLI)=0.463 vs AUROC(cos)=0.952

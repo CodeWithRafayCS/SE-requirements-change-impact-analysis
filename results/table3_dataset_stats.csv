@@ -1,0 +1,2 @@
+n_requirements,n_change_requests,total_pairs,total_impacts,avg_impacted_per_cr,impact_density_pct,train_crs,train_pairs,train_impacts,val_crs,val_pairs,val_impacts,test_crs,test_pairs,test_impacts
+75,35,2620,43,1.23,1.64,21,1572,24,7,525,10,7,523,9
