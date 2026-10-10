@@ -1,0 +1,5 @@
+research papers/*.pdf
+results/*.rar
+.venv/
+__pycache__/
+*.pyc
