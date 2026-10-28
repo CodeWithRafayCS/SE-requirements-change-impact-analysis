@@ -1,5 +1,7 @@
 # Large-Scale Requirements Change Impact Analysis Using GPU-Accelerated Dense Semantic Retrieval
 
+**Authors:** Abdul Rafay Akhtar and Madeeha
+
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x%20CUDA-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org/)
 [![Hardware](https://img.shields.io/badge/GPU-NVIDIA%20Tesla%20T4%20(14.56GB)-76B900.svg?style=flat&logo=nvidia)](https://www.nvidia.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -163,7 +165,7 @@ If you use this pipeline or benchmark in your research, please cite:
 ```bibtex
 @article{rafay2026large,
   title={Large-Scale Empirical Requirements Change Impact Analysis Using GPU-Accelerated Dense Semantic Retrieval: A Comprehensive Benchmark Across 33 Open-Source Software Projects},
-  author={Rafay, Abdul and Contributors},
+  author={Abdul Rafay Akhtar and Madeeha},
   journal={Software Engineering Research Repository},
   year={2026}
 }
