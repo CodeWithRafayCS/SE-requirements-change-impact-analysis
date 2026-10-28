@@ -1,0 +1,26 @@
+# =========================================================================
+# SEOSS Full 3GB Dataset GPU Pipeline Dependencies
+# =========================================================================
+#
+# IMPORTANT FOR LOCAL NVIDIA GPU ENVIRONMENTS:
+# Standard 'pip install torch' from PyPI may default to CPU-only on some systems.
+# If installing on a local machine with an NVIDIA GPU, install the CUDA-enabled
+# PyTorch build first from the official PyTorch wheel repository, for example:
+#
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   (or cu118 depending on your installed CUDA driver version)
+#
+# ON GOOGLE COLAB:
+# Google Colab GPU runtimes (T4, V100, A100) already have a CUDA-enabled
+# PyTorch version pre-installed in the environment.
+# =========================================================================
+
+torch>=2.0.0
+sentence-transformers>=2.7.0
+transformers>=4.40.0
+scikit-learn>=1.4.0
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.66.0
+pyyaml>=6.0
+matplotlib>=3.7.0

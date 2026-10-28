@@ -1,5 +1,18 @@
-research papers/*.pdf
-results/*.rar
+# Large binaries, dataset files, and research papers
+research papers/
+dataverse_files/
+data/
+cache/
+*.zip
+*.rar
+*.tar.gz
+
+# Python virtual environment and bytecode
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Temporary files and logs
+*.log
